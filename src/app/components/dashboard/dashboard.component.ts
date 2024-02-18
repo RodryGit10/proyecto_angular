@@ -5,12 +5,14 @@ import { RestApiService } from '../../servicios/rest-api.service'; //añadido
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { Router } from '@angular/router'; //añadir
+import { MatTooltipModule } from '@angular/material/tooltip';
+
 
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [NavbarComponent, MatTableModule, MatIconModule, MatButtonModule], //añadir -> NavbarComponent, MatTableModule
+  imports: [NavbarComponent, MatTableModule, MatIconModule, MatButtonModule, MatTooltipModule], //añadir -> NavbarComponent, MatTableModule
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })
@@ -38,6 +40,6 @@ export class DashboardComponent implements OnInit{
   }
 
   editar(id: string): void {
-    this.router.navigateByUrl('/dashboard/editar?id');
+    this.router.navigateByUrl('/dashboard/editar/'+id);
   }
 }

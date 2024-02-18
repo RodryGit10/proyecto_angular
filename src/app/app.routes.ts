@@ -8,6 +8,6 @@ export const routes: Routes = [
     {path: 'login', component: LoginComponent}, //añadir
     {path: 'dashboard', component: DashboardComponent}, //añadir
     {path: 'nuevo', component: NuevoUsuarioComponent}, //añadir
-    {path: 'dashboard/editar', component: EditarEstudianteComponent}, //añadir
+    {path: 'dashboard/editar/:id', component: EditarEstudianteComponent}, //añadir
     {path: '**', redirectTo: 'login'}  //añadir
 ];
