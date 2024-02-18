@@ -1,0 +1,60 @@
+{
+  "estudiantes": [
+    {
+      "id": "e01e",
+      "nombre": "Rodrygo",
+      "apellido": "Carita",
+      "edad": 28,
+      "carrera": "Ing. Electonica"
+    },
+    {
+      "id": "e02e",
+      "nombre": "Vanesa",
+      "apellido": "Conde",
+      "edad": 25,
+      "carrera": "Ing. Telecomunicaciones"
+    },
+    {
+      "id": "e03e",
+      "nombre": "Romel",
+      "apellido": "Coarite",
+      "edad": 25,
+      "carrera": "Ing. Sistemas"
+    },
+    {
+      "id": "e04e",
+      "nombre": "Karina",
+      "apellido": "Vaqueda",
+      "edad": 30,
+      "carrera": "Ing. Sistemas"
+    },
+    {
+      "id": "c868",
+      "nombre": "Pedro",
+      "apellido": "Ramos",
+      "edad": 32,
+      "carrera": "Ing. Electronica"
+    },
+    {
+      "id": "431c",
+      "nombre": "Oscar",
+      "apellido": "Reynoso",
+      "edad": 29,
+      "carrera": "Ing. Petrolera"
+    },
+    {
+      "id": "4a2e",
+      "nombre": "Ramiro",
+      "apellido": "Cuevas",
+      "edad": 40,
+      "carrera": "Psicologia "
+    },
+    {
+      "id": "9136",
+      "nombre": "Daniela",
+      "apellido": "Duran",
+      "edad": 25,
+      "carrera": "Fisica"
+    }
+  ]
+}
