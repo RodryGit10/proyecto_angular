@@ -1,0 +1,12 @@
+.formulario-centrado {
+    display: flex;
+    justify-content: center;
+    
+}
+
+th{
+    color: rgb(0, 255, 21);
+}
+td, th{
+    text-align: center;
+}

@@ -30,6 +30,8 @@ export class NuevoUsuarioComponent {
     carrera: new FormControl('', Validators.required)
   })
 
+
+  datos:any[] = [];
   guardarDatos(): void{
     //Llamar al servicio REST para enviar los datos con el método POST
     this.servicio_rest.guardarEstudiantes({
@@ -39,7 +41,7 @@ export class NuevoUsuarioComponent {
       "carrera": this.formNuevo.value.carrera,
     }).subscribe(datos => {
       console.log("El nuevo estudiante esta guardado correctamente");
-      console.log(datos);
+      this.router.navigateByUrl('/dashboard');
     })
   }
 
